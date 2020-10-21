@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html  >
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/jscript.js"></script> 
+        <script src="js/vscript.js"></script> 
+
+        <title>Der Partykeller</title>
+
+
+    </head>
+
+    <body>
+        <div id="oben">
+            <div id="logo">
+                <div id="logo_bild">
+                    <div id="logo_bild2"></div>
+                    <div id="logo_bild_text">PK</div>
+                </div>
+                <div id="logo_Text"><a href="#">Der Partykeller - Games</a></div>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><a href="https://intern.der-partykeller.de/">Home</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="discord.html">Discord</a></li>
+                </ul>
+            </div>
+            <div id="slider"></div>
+        </div>
+
+
+        <div id="mitte">
+           
+            <div class="inhalt_box">
+                <h2>Games</h2>
+               
+                 <!-- Container for the image gallery -->
+                <div class="container">
+
+                    <!-- Full-width images with number text -->
+                    <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                        <img src="pictures/Folie1.JPG" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                        <img src="pictures/Folie2.JPG" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                        <img src="pictures/Folie3.JPG" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                        <img src="pictures/Folie4.JPG" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                        <img src="pictures/Folie5.JPG" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                            <img src="pictures/Folie6.JPG" style="width:100%">
+                        </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                    <!-- Image text -->
+                    <div class="caption-container">
+                    <p id="caption"></p>
+                    </div>
+                
+                    <!-- Thumbnail images -->
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="pictures/Folie1.JPG" style="width:100%" onclick="currentSlide(1)" alt="Der Partykeller">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="pictures/Folie2.JPG" style="width:100%" onclick="currentSlide(2)" alt="Texas Hold'em">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="pictures/Folie3.JPG" style="width:100%" onclick="currentSlide(3)" alt="Left Right Drink">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="pictures/Folie4.JPG" style="width:100%" onclick="currentSlide(4)" alt="Drunkuno">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="pictures/Folie5.JPG" style="width:100%" onclick="currentSlide(5)" alt="Waterfall">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="pictures/Folie6.JPG" style="width:100%" onclick="currentSlide(6)" alt="Go Back">
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+
+            <div class="inhalt_box">
+                <h2>Musik</h2>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ga540v27NpE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <!-- ONE World Radio
+                <div class="ng-app-embedded">
+                    <div ui-view class="microsite embedded-radio-player" data-playerwidth="340px" data-playertype="web_embedded" data-playstation="oneworldradio" data-autoplay="true" data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93"></div>
+                </div>
+                <noscript>
+                    <a href="https://www.radio.de/s/oneworldradio" target="_blank">Tomorrowland - One World Radio auf radio.de</a>
+                </noscript>
+                -->
+
+
+            </div>
+        </div>
+
+        <!-- DISCORD APP
+            <iframe src="https://discordapp.com/widget?id=693020123035992134&theme=dark" width="40%" height="400" allowtransparency="true" frameborder="0"></iframe>
+        -->
+
+        <div id="unten">
+            <p>Social Media & Web</p>
+            <div id="social_contend">
+                <a id="social_ig" href="https://www.instagram.com/christoph_smx" target="_blank" title="Da bin ich zu finden :)">Instagram</a>
+                <a id="social_yt" href="https://www.youtube.com/watch?v=Ga540v27NpE" target="_blank" title="A weng Musik">YouTube</a>
+                <a id="social_dc" href="https://discord.gg/7AacsxP" target="_blank" title="Da bin ich zu finden :)">Discord</a>
+                <a id="social_em" onclick="copyToClipboard('support@der-partykeller.de')" title="Support, Fragen, Vorschläge... hauts raus (beim anklicken wird die E-Mail Adresse kopiert)">E-Mail</a>
+            </div>
+        </div> 
+
+        <div id="footer">
+            <p>Copyright 2020 | Der Partykeller - Christoph Marks</p>
+            <a id=version_titel href="Version.html">Version 2.2 - 19.07.2020</a>
+        </div>
+
+    </body>
+
+</html>
