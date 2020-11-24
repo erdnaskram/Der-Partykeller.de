@@ -78,8 +78,37 @@ p {
     background-size: cover;    
     width: 100%;
     height: 400px;
+    position: relative;
     background-position: center;
 }
+
+/*
+.image-container {
+    background-image: url("https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    position: relative; /* Needed to position the cutout text in the middle of the image /
+    height: 300px; /* Some height /
+  } */
+  
+  .headline {
+   /* background-color: #FFF7EF;*/
+    background: linear-gradient(to right,#405de6,#5851db,#833ab4,#c13584,
+    #e1306c,#fd1d1d,#f56040,#f77737,#fcaf45,#ffdc80);
+    color: black;
+    font-size: 40px; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 10px;
+    width: 30%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 35%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+    border-radius: 3px;
+  }
+
 
 #mitte {
     background-color:  #343434;
@@ -179,6 +208,7 @@ p {
 #unten p {
     text-align: center;
     margin-bottom: 0;
+    color: #343434;
 }
 
 #social_contend {
@@ -217,6 +247,14 @@ p {
     border-radius: 7px;
 }
 
+#social_gh{
+    background-color: #333;
+    color: #f5f5f5;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 7px;
+}
+
 #social_em {
     background: #343434;
     color: #FB8C29;
@@ -232,6 +270,9 @@ p {
     box-shadow: 0 7px 12px rgba(0, 0, 0, 0.4), 0 5px 4px rgba(0, 0, 0, 0.22);
     transform: translate(0, -4px);
 }#social_dc:hover {
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.4), 0 5px 4px rgba(0, 0, 0, 0.22);
+    transform: translate(0, -4px);
+}#social_gh:hover {
     box-shadow: 0 7px 12px rgba(0, 0, 0, 0.4), 0 5px 4px rgba(0, 0, 0, 0.22);
     transform: translate(0, -4px);
 }

@@ -16,12 +16,13 @@ function copyToClipboard(toCopy) {
 
     // Ausgewählten Text in die Zwischenablage kopieren
     document.execCommand('copy');
-
+/*
     // log
     console.log(el.value);
     $("#copy-alert").fadeTo(2000, 500).slideUp(500, function() {
           $("#copy-alert").slideUp(500);
     });
+    */
      
     // Temporäres Element löschen
     document.body.removeChild(el);
